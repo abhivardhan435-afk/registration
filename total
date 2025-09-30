@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emergency Service</title>
-    <link rel="stylesheet" href="styles.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -24,16 +23,8 @@
             width: 300px;
         }
 
-        .panel {
-            display: none;
-        }
-
         .panel.hidden {
             display: none;
-        }
-
-        .panel:not(.hidden) {
-            display: block;
         }
 
         h2 {
